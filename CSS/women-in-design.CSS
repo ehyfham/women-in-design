@@ -2,6 +2,22 @@
 /*import fonts from Google fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Pirata+One&display=swap');
 
+/*css grids*/
+.grid  {
+    display: flex;
+    gap: 24px;
+    flex-direction: row;
+}
+
+/* CSS grids column widths */
+.grid-col-third {
+    flex-basis: 33.33%;
+}
+.grid-col-twoThirds {
+    flex-basis: 66.66%;
+}
+
+
 *{
     padding : 0;
     margin: 0;
